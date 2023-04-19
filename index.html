@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <h1>Tarun Kumar</h1>
 
-      <nav class="navbar " id="nav-menu">
+       <nav class="navbar " id="nav-menu">
         <ul class="navbar-list">
+
           <li><a class="navbar-link home" href="#">Home</a></li>
           <li><a class="navbar-link about" href="#">About</a></li>
           <li><a class="navbar-link projects" href="#">Projects</a></li>
-          <li><a class="navbar-link skills" href="#">skills</a></li>
-
+          <li><a class="navbar-link skills" href="#">Skills</a></li>
+          <li><a class="navbar-link resume" href="#">Resume</a></li>
           <li><a class="navbar-link contact" href="#">Contact</a></li>
         
         </ul>
@@ -27,26 +28,63 @@
         <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
         <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
       </div>
-    </header>
+    </header>  -->
+
+    <header>
+      <h1 id="user-detail-name"><a href="index.html">Tarun Kumar</a></h1>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar" id="nav-menu">
+          <li><a class="nav-link home" href="#home">Home</a></li>
+          <li><a class="nav-link about" href="#about">About</a></li>
+          <li><a class="nav-link skills" href="#skills">Skills</a></li>
+          <li><button id="resume-button-1" class="nav-link resume" onclick="downloadresume()">Resume</button></li>
+          <li><a class="nav-link projects" href="#projects">projects</a></li>
+          <li><a class="nav-link contact" href="#contact">Contact</a></li>
+          <div class="bx bx-moon" id="darkmode"></div>
+      </ul>
+  </header>
+
+    
 
     <!-- ======================================== 
           Our Main Hero Section Start  
     ========================================  -->
-    <main>
-      <section class="section-hero">
-        <div class="hero">
-          <p>Hero section Plz Subscribe to thapa technical channel</p>
-        </div>
-      </section>
-    </main>
+    
+    <section style="width: 100%; height: 400px; border: 2px solid black; text-align: center;" class="home" id="home">
+      <h1>home</h1>
+    </section>
+  
 
     <!-- ======================================== 
           Our Service Section Start  
     ========================================  -->
-    <section class="section-services">
-      <div class="hero">
-        <p>Services section</p>
-      </div>
+    <section style="width: 100%; height: 400px; border: 2px solid black; text-align: center;" class="about" id="about">
+      <h1>about</h1>
+    </section>
+
+     <!-- ======================================== 
+          Our Service Section Start  
+    ========================================  -->
+    <section style="width: 100%; height: 400px; border: 2px solid black; text-align: center;" class="projects" id="projects">
+      <h1>Projects</h1>
+    </section>
+
+
+     <!-- ======================================== 
+          Our Service Section Start  
+    ========================================  -->
+    <section style="width: 100%; height: 400px; border: 2px solid black; text-align: center;" class="skills" id="skills">
+      <h1>Skills</h1>
+    </section>
+
+
+     <!-- ======================================== 
+          Our Service Section Start  
+    ========================================  -->
+    <section style="width: 100%; height: 400px; border: 2px solid black; text-align: center;" class="contact" id="contact">
+      <h1>Contect</h1>
     </section>
 
     <!-- ======================================== 
