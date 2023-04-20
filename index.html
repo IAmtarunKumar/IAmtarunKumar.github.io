@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>thapa Technical</title>
+    <title>Tarun Kumar</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header class="header">
-      <h1>Tarun Kumar</h1>
+      <h1 id="user-detail-name">Tarun Kumar</h1>
 
       <nav class="navbar" id="nav-menu">
         <ul class="navbar-list">
@@ -17,7 +17,7 @@
           <li><a class="nav-link about" href="#about">About</a></li>
           <li><a class="nav-link projects" href="#projects">Projects</a></li>
           <li><a class="nav-link skills" href="#skills">Skills</a></li>
-          <li><a class="nav-link resume" href="#resume">Resume</a></li>
+          <li><button id="resume-button-1" class="nav-link resume" onclick="downloadresume()">Resume</button></li>
           <li><a class="nav-link contact" href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -49,10 +49,7 @@
     <!-- ======================================== 
           Our Service Section Start  
     ========================================  -->
-    <section
-      class="about section"
-      id="about"
-    >
+    <section id="about" class="about section" >
     <div>
       <img class="home-img" src="./img/tarun.jpg" alt="">
   </div>
@@ -74,7 +71,7 @@
     <section
       id="skills">
       <h1>Skills</h1>
-      <div class="skill-card">
+      <div class="skills-card">
 
         <div>
           <img class="skills-card-img" src="./img/js.png" alt="">
@@ -139,6 +136,17 @@
                   target="_blank">Deploy</a>
           </div>
         <!-- 4 -->
+        <div class="project-card">
+          <p class="project-title">project name</p>
+          <img width="50%" src="./img/Screenshot_27.png" alt="">
+          <p class="project-description">Dscrption</p>
+          <p class="project-tech-stack">html | css | javascript</p>
+          <div>
+              <a class="project-github-link" href="https://github.com/RAUSHANSHARMA74/half-top-1982"
+                  target="_blank">GitHub</a>
+              <a class="project-deployed-link" href="https://travelport.netlify.app/"
+                  target="_blank">Deploy</a>
+          </div>
     </div>
    
 
