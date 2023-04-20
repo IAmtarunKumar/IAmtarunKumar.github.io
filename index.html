@@ -11,16 +11,14 @@
     <header class="header">
       <h1>Tarun Kumar</h1>
 
-       <nav class="navbar " id="nav-menu">
+      <nav class="navbar" id="nav-menu">
         <ul class="navbar-list">
-
-          <li><a class="nav-link home" href="#">Home</a></li>
-          <li><a class="nav-link about" href="#">About</a></li>
-          <li><a class="nav-link projects" href="#">Projects</a></li>
-          <li><a class="nav-link skills" href="#">Skills</a></li>
-          <li><a class="nav-link resume" href="#">Resume</a></li>
-          <li><a class="nav-link contact" href="#">Contact</a></li>
-        
+          <li><a class="nav-link home" href="#home">Home</a></li>
+          <li><a class="nav-link about" href="#about">About</a></li>
+          <li><a class="nav-link projects" href="#projects">Projects</a></li>
+          <li><a class="nav-link skills" href="#skills">Skills</a></li>
+          <li><a class="nav-link resume" href="#resume">Resume</a></li>
+          <li><a class="nav-link contact" href="#contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -28,48 +26,91 @@
         <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
         <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
       </div>
-    </header> 
-
-   
-
-    
+    </header>
 
     <!-- ======================================== 
           Our Main Hero Section Start  
     ========================================  -->
-    
-    <section style="width: 100%; height: 400px; border: 2px solid black; text-align: center;" class="home" id="home">
+
+    <section class="home" id="home">
       <h1>home</h1>
+
+      <div class="home-div">
+        <div>
+          <h2>I'm a passionate <span>Full Stack Web Developer</span> from Patna</h2>
+          <button id="resume-button-2" onclick="downloadresume()">resume</button>
+        </div>
+        <div class="img-div">
+          <img src="./img/tarun.jpg" alt="">
+      </div>
+      </div>
     </section>
-  
 
     <!-- ======================================== 
           Our Service Section Start  
     ========================================  -->
-    <section style="width: 100%; height: 400px; border: 2px solid black; text-align: center;" class="about" id="about">
-      <h1>about</h1>
+    <section
+      class="about section"
+      id="about"
+    >
+    <div>
+      <img class="home-img" src="./img/tarun.jpg" alt="">
+  </div>
+  <p id="user-detail-intro">I'm an Full Stack Web Developer, passionate about building great apps in
+    minimal time using HTML | CSS | JAVACRIPT. I help
+    people convert their ideas into to fully functional software projects.</p>
+    <p id="contact-phone"><i class="fa-solid fa-chevron-right"></i><span>Phone :</span>7678104587
+    </p>
+
+    <p id="contact-email"><i class="fa-solid fa-chevron-right"></i><span>Email
+      :</span>tarunmehto71@gmail.com</p>
     </section>
 
-     <!-- ======================================== 
+    <!-- ======================================== 
           Our Service Section Start  
     ========================================  -->
-    <section style="width: 100%; height: 400px; border: 2px solid black; text-align: center;" class="projects" id="projects">
+    <section
+      style="
+        width: 100%;
+        height: 400px;
+        border: 2px solid black;
+        text-align: center;
+      "
+      class="projects"
+      id="projects"
+    >
       <h1>Projects</h1>
     </section>
 
-
-     <!-- ======================================== 
+    <!-- ======================================== 
           Our Service Section Start  
     ========================================  -->
-    <section style="width: 100%; height: 400px; border: 2px solid black; text-align: center;" class="skills" id="skills">
+    <section
+      style="
+        width: 100%;
+        height: 400px;
+        border: 2px solid black;
+        text-align: center;
+      "
+      class="skills"
+      id="skills"
+    >
       <h1>Skills</h1>
     </section>
 
-
-     <!-- ======================================== 
+    <!-- ======================================== 
           Our Service Section Start  
     ========================================  -->
-    <section style="width: 100%; height: 400px; border: 2px solid black; text-align: center;" class="contact" id="contact">
+    <section
+      style="
+        width: 100%;
+        height: 400px;
+        border: 2px solid black;
+        text-align: center;
+      "
+      class="contact"
+      id="contact"
+    >
       <h1>Contect</h1>
     </section>
 

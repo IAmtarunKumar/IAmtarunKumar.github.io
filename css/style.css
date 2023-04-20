@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -18,12 +19,21 @@ body {
 }
 
 .header {
-  padding: 0 4.8rem;
-  height: 10rem;
+ background-color: white;
+  width: 100%;
+  padding: 15px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e7f5ff;
+  border-bottom: 1px solid grey;
+  position: fixed;
+  top: 0px;
+}
+section h1{
+  margin-top: 100px;
+}
+section{
+  padding: 50px 10%;
 }
 
 .header .logo {
@@ -36,8 +46,8 @@ body {
   list-style: none;
 }
 
-.navbar-link:link,
-.navbar-link:visited {
+.nav-link:link,
+.nav-link:visited {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
@@ -47,8 +57,8 @@ body {
   transition: all 0.3s;
 }
 
-.navbar-link:hover,
-.navbar-link:active {
+.nav-link:hover,
+.nav-link:active {
   color: #364fc7;
 }
 
@@ -68,6 +78,39 @@ body {
   display: none;
 }
 
+/* home  */
+#home{
+ /* width: 100%; */
+ /* height: 100vh; */
+ border: 2px solid black;
+
+
+}
+.home-div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content: space-evenly;
+}
+#home div{
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.img-div img{
+  width: 80%;
+}
+#resume-button-2{
+  padding: 5px;
+  font-size: 20px;
+  background-color: rgba(128, 128, 128, 0.475);
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
+  
+
+}
 /* ===========================================
 Hero and Service Section Start
 ======================================= */
