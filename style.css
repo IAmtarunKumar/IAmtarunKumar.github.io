@@ -339,19 +339,20 @@ nav .fas {
     margin-top: 4%;
     width: 80%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 .about-section1>div>img {
-    width: 100%;
-    /* height: 80%; */
+    max-width: 300px;
     border-radius: 20px;
+    min-width:inherit;
 }
 
 
 #user-detail-intro {
     margin-top: 3%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     color:  #0f0c27;
     font-size: 18px;
     font-weight: 500;
