@@ -1,5 +1,6 @@
 const express = require("express")
 const nodemailer =  require("nodemailer")
+require("dotenv").config()
 const cors = require("cors")
 
 
@@ -49,6 +50,6 @@ var transporter = nodemailer.createTransport({
 })
 
 
-app.listen(3000 , ()=>{
+app.listen(process.env.port || 5000 , ()=>{
     console.log("3000 port is working")
 })
