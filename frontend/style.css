@@ -221,7 +221,7 @@ nav .fas {
 }
 
 #home .max-width {
-    padding-top: 8%;
+    /* padding-top: 8%; */
     width: 100%;
     display: flex;
 }
@@ -264,7 +264,7 @@ nav .fas {
     width: 80%;
     margin: auto;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .home-content>div:nth-child(2) {
@@ -716,7 +716,8 @@ textarea{
 
     #one {
         margin-left: 40px;
-        margin-top: 150px;
+        /* margin-top: 150px;
+         */
         width: auto;
 
     }
