@@ -131,6 +131,7 @@ sr.reveal('#github-stats-card', { delay: 600 })
 
 //contect form
 
+let url ="https://backend-portfolio-7j4x.onrender.com"
 let form = document.querySelector("form")
 
 form.addEventListener("submit" , (event)=>{
@@ -149,8 +150,7 @@ form.addEventListener("submit" , (event)=>{
 
 async function emailfun(obj){
     try {
-
-        let res =  await fetch("http://localhost:3000/mail",{
+         let res =  await fetch(`${url}/mail`,{
             method : "POST",
             headers : {
                 "Content-Type" : "application/json"
@@ -161,6 +161,7 @@ async function emailfun(obj){
         if(res.ok){
             let data = await res.json()
             console.log(data)
+            alert("Mail is Sent")
         }
         
     } catch (error) {

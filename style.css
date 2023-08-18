@@ -62,10 +62,15 @@ nav {
 
 /* ============= */
 .logo {
-    width: 140px;
+    /* width: 140px; */
     font-size: 25px;
     color: white;
+    font-weight: bold;
     text-decoration: none;
+    font-family:monospace;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .logo::after {
